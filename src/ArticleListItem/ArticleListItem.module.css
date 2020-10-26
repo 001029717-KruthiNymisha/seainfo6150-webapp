@@ -1,0 +1,26 @@
+.list {
+    background: white;
+    background-image: linear-gradient(to right, rgb(179 37 37), white 10%);
+    border: 1px solid rgb(179 37 37);
+    border-radius: 5px;
+    margin: 15px 17px 15px -15px
+}
+
+.title {
+    color: rgb(179 37 37);
+    font-size: 18px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.shortText {
+    color: black;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.displyDate {
+    font-weight: bold;
+}
+
