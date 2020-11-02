@@ -8,7 +8,7 @@ const ArticleList = (props) => {
   if (props.articles.length) {
     displayContent = (
 
-      <ul className={styles.list}>
+      <ul className={styles.container}>
         {props.articles.map((item) => (
           <ArticleListItem article={item} />
         ))}

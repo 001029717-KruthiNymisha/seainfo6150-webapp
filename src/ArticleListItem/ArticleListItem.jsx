@@ -8,13 +8,14 @@ const ArticleListItem = (prop) => {
  let buttonText = 'Show more';
     const [toggleData, setToggleText] = useState(false);
   return (
-        <article>
-          <li  className={styles.list}>
+          <li  className={styles.container}>
+          <article className={styles.article}>
             <h1 className={styles.title}>{prop.article.title}</h1>
 {toggleData &&
-                      <div className={styles.shortText}>
-                        <p>{prop.article.shortText} </p>
+                      <div>
+                        <p className={styles.shortText}>{prop.article.shortText} </p>
                         <time className={styles.displyDate} datetime={prop.article.displyDate}>{prop.article.displayDate} </time>
+                        <br/><br/>
                       </div>
                     }
            <ArticleTextToggleButton
@@ -27,9 +28,9 @@ const ArticleListItem = (prop) => {
                        }
                    }}>
            </ArticleTextToggleButton>
-
+           </article>
           </li>
-        </article>
+
   );
 };
 

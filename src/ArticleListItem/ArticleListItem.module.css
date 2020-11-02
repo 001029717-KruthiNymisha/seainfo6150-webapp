@@ -1,10 +1,23 @@
-.list {
+.container {
     background: white;
     background-image: linear-gradient(to right, rgb(179 37 37), white 10%);
     border: 1px solid rgb(179 37 37);
     border-radius: 5px;
-    margin: 15px 17px 15px -15px
+      margin-top: 4px;
+      margin-bottom: 4px;
+      margin-right: 10px;
+      margin-left: -25px;
 }
+.article {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
+}
+
+
+
 
 .title {
     color: rgb(179 37 37);
@@ -17,10 +30,12 @@
     color: black;
     font-size: 14px;
     margin-left: 10px;
-    margin-bottom: 10px;
+   /* margin-bottom: 10px;*/
 }
 
 .displyDate {
     font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 30px;
 }
 
