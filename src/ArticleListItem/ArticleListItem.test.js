@@ -11,9 +11,15 @@ describe("ArticleListItemTests", () => {
         author: 'Kate Farley',
         displayDate: 'November 22nd 2018, 7:12 am',
     };
-    it("renders correctly", () => {
+    it("renders correctly before OnClick", () => {
         const { container } = render(<ArticleListItem article={article} />);
         expect(container).toMatchSnapshot();
     });
 
+    it("renders correctly after OnClick", () => {
+        const { container, getByText } = render(<ArticleListItem article={article} /> );
+        const button = getByText("Show more");
+        fireEvent.click(button);
+        expect(container).toMatchSnapshot();
+    });
 });
