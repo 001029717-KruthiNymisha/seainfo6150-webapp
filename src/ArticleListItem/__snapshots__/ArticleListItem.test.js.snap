@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ArticleListItemTests renders correctly after OnClick 1`] = `
+exports[`ArticleListItemTests renders correctly 1`] = `
 <div>
   <li
     class="container"
@@ -8,45 +8,16 @@ exports[`ArticleListItemTests renders correctly after OnClick 1`] = `
     <article
       class="article"
     >
-      <h1
-        class="title"
-      >
-        The Statue of Liberty's torch heads to new museum
-      </h1>
       <div>
-        <p
-          class="shortText"
-        >
-          The Statue of Liberty's original torch is getting a new home
-           
-        </p>
-        <time
-          class="displyDate"
-        >
-          November 22nd 2018, 7:12 am
-           
-        </time>
-        <br />
-        <br />
+        <img
+          class="image"
+          src="https://cdn.cnn.com/cnnnext/dam/assets/181122102925-statue-of-liberty-crown-super-169.jpg"
+        />
+        <h1
+          class="title"
+          src="The Statue of Liberty's torch heads to new museum"
+        />
       </div>
-      <button
-        class="button"
-      >
-        Show less
-      </button>
-    </article>
-  </li>
-</div>
-`;
-
-exports[`ArticleListItemTests renders correctly before OnClick 1`] = `
-<div>
-  <li
-    class="container"
-  >
-    <article
-      class="article"
-    >
       <h1
         class="title"
       >

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ArticleListTests renders correctly 1`] = `
+exports[`ArticleListTest renders correctly 1`] = `
 <div>
   <section>
     <header>
@@ -15,6 +15,16 @@ exports[`ArticleListTests renders correctly 1`] = `
         <article
           class="article"
         >
+          <div>
+            <img
+              class="image"
+              src="https://cdn.cnn.com/cnnnext/dam/assets/181122102925-statue-of-liberty-crown-super-169.jpg"
+            />
+            <h1
+              class="title"
+              src="The Statue of Liberty's torch heads to new museum"
+            />
+          </div>
           <h1
             class="title"
           >
@@ -33,6 +43,16 @@ exports[`ArticleListTests renders correctly 1`] = `
         <article
           class="article"
         >
+          <div>
+            <img
+              class="image"
+              src="https://cdn.cnn.com/cnnnext/dam/assets/170321135754-airport-security-line-file-super-169.jpg"
+            />
+            <h1
+              class="title"
+              src="You can take a pie on a plane"
+            />
+          </div>
           <h1
             class="title"
           >

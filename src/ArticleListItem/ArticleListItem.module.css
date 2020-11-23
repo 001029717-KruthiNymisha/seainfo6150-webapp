@@ -38,6 +38,7 @@
 }
 
 .title {
+    text-decoration: underline;
     color: rgb(179 37 37);
     font-size: 18px;
     padding-left: 10px;

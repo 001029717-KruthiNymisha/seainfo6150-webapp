@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import HTMLText from "../HTMLText/HTMLText";
 import styles from "./ArticleListItem.module.css";
+import ArticleImage from "../ArticleImage/ArticleImage.jsx";
 
 import ArticleTextToggleButton from "../ArticleTextToggleButton/ArticleTextToggleButton";
 
@@ -10,9 +11,11 @@ const ArticleListItem = (prop) => {
   return (
           <li  className={styles.container}>
           <article className={styles.article}>
+           <ArticleImage url = {prop.article.image._url} title={prop.article.title}></ArticleImage>
             <h1 className={styles.title}>{prop.article.title}</h1>
 {toggleData &&
                       <div>
+
                         <p className={styles.shortText}>{prop.article.shortText} </p>
                         <time className={styles.displyDate} datetime={prop.article.displyDate}>{prop.article.displayDate} </time>
                         <br/><br/>

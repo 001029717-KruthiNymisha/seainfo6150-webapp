@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleImageTest renders correctly 1`] = `
+<div>
+  <div>
+    <img
+      class="image"
+      src="https://cdn.cnn.com/cnnnext/dam/assets/181122102925-statue-of-liberty-crown-super-169.jpg"
+    />
+    <h1
+      class="title"
+      src="The Statue of Liberty's torch heads to new museum"
+    />
+  </div>
+</div>
+`;
